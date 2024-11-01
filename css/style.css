@@ -1,0 +1,141 @@
+/* #1 : CSS3 Tag - Default */
+div.stitched-sku {
+	padding: 3px 5px;
+	margin: 15px 5px 15px 5px;
+	background: #ff0030;
+	color: #fff;
+	font-size: 13px;
+	line-height: 1.3em;
+	border: 2px dashed #fff;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-box-shadow: 0 0 0 4px #ff0030, 2px 1px 4px 4px rgba(10,10,0,.5);
+	-webkit-box-shadow: 0 0 0 4px #ff0030, 2px 1px 4px 4px rgba(10,10,0,.5);
+	box-shadow: 0 0 0 4px #ff0030, 2px 1px 6px 4px rgba(10,10,0,.5);
+	text-shadow: -1px -1px #aa3030;
+}
+
+div.stitched-cat {
+	padding: 3px 5px;
+	margin: 15px 5px 15px 5px;
+	background: #cac4fa;
+	color: #fff;
+	font-size: 13px;
+	line-height: 1.3em;
+	border: 2px dashed #fff;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-box-shadow: 0 0 0 4px #cac4fa, 2px 1px 4px 4px rgba(10,10,0,.5);
+	-webkit-box-shadow: 0 0 0 4px #cac4fa, 2px 1px 4px 4px rgba(10,10,0,.5);
+	box-shadow: 0 0 0 4px #cac4fa, 2px 1px 6px 4px rgba(10,10,0,.5);
+	text-shadow: -1px -1px #99c4fa;
+}
+
+.tags{
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:block;
+	right:24px;
+	bottom:-16px;
+	display: block;
+}
+
+.tags li, .tags a{
+	float:left;
+	height:24px;
+	line-height:24px;
+	position:relative;
+	font-size:11px;
+	margin-bottom:3px;
+}
+
+.tags a{
+	margin-left:20px;
+	padding:0 10px 0 12px;
+	background:#808080;
+	color:#fff;
+	text-decoration:none;
+	-moz-border-radius-bottomright:4px;
+	-webkit-border-bottom-right-radius:4px;	
+	border-bottom-right-radius:4px;
+	-moz-border-radius-topright:4px;
+	-webkit-border-top-right-radius:4px;	
+	border-top-right-radius:4px;	
+} 
+
+.tags a:before{
+	content:"";
+	float:left;
+	position:absolute;
+	top:0;
+	left:-12px;
+	width:0;
+	height:0;
+	border-color:transparent #808080 transparent transparent;
+	border-style:solid;
+	border-width:12px 12px 12px 0;		
+}
+
+.tags a:after{
+	content:"";
+	position:absolute;
+	top:10px;
+	left:0;
+	float:left;
+	width:4px;
+	height:4px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background:#fff;
+	-moz-box-shadow:-1px -1px 2px #004977;
+	-webkit-box-shadow:-1px -1px 2px #004977;
+	box-shadow:-1px -1px 2px #004977;
+}
+.tags a:hover{background:#333;}	
+.tags a:hover:before{border-color:transparent #333 transparent transparent;}
+
+/* #2 : Button Set - Red */	
+.tags li.red a{background:#fd5050;}
+.tags li.red a:before{border-color:transparent #fd5050 transparent transparent;}
+.tags li.red a:hover{background:#f00;}	
+.tags li.red a:hover:before{border-color:transparent #f00 transparent transparent;}
+
+/* #3 : Button Set - Orange */	
+.tags li.orange a{background:#fbb431;}
+.tags li.orange a:before{border-color:transparent #fbb431 transparent transparent;}
+.tags li.orange a:hover{background:#ffa500;}	
+.tags li.orange a:hover:before{border-color:transparent #ffa500 transparent transparent;}
+
+/* #4 : Button Set - Blue */	
+.tags li.blue a{background:#6a5acd;}
+.tags li.blue a:before{border-color:transparent #6a5acd transparent transparent;}
+.tags li.blue a:hover{background:#00f;}	
+.tags li.blue a:hover:before{border-color:transparent #00f transparent transparent;}
+
+/* #5 : Button Set - Green */	
+.tags li.green a{background:#228B22;}
+.tags li.green a:before{border-color:transparent #228B22 transparent transparent;}
+.tags li.green a:hover{background:#008000;}	
+.tags li.green a:hover:before{border-color:transparent #008000 transparent transparent;}
+
+/* #6 : Button Set - Lime */	
+.tags li.lime a{background:#ebeb04;}
+.tags li.lime a:before{border-color:transparent #ebeb04 transparent transparent;}
+.tags li.lime a:hover{background:#ffd700;}	
+.tags li.lime a:hover:before{border-color:transparent #ffd700 transparent transparent;}
+
+/* #7 : Button Set - Light Blue */	
+.tags li.lightblue a{background:#add8e6;}
+.tags li.lightblue a:before{border-color:transparent #add8e6 transparent transparent;}
+.tags li.lightblue a:hover{background:#8ccfe5;}	
+.tags li.lightblue a:hover:before{border-color:transparent #8ccfe5 transparent transparent;}
+
+/* #8 : Button Set - Silver */	
+.tags li.silver a{background:#c0c0c0;}
+.tags li.silver a:before{border-color:transparent #c0c0c0 transparent transparent;}
+.tags li.silver a:hover{background:#c1aaaa;}	
+.tags li.silver a:hover:before{border-color:transparent #c1aaaa transparent transparent;}
